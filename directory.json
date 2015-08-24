@@ -1,0 +1,38 @@
+{
+    "client_name": "Tampa NodeJS",
+    "solution_name": "tnj-runners",
+    "heroku_key": "7c004a4e-c883-42b4-bd35-6ba100abc2e5",
+    "new_relic_key": "",
+    "imported_projects": [
+        {
+            "name": "tnj-runkeeper-worker",
+            "github_url": "https://github.com/tampanodejs/tnj-runkeeper-worker.git",
+            "path": "/tnj-runkeeper-worker/",
+            "type": "worker"
+        },
+        {
+            "name": "tnj-main-worker",
+            "github_url": "https://github.com/tampanodejs/tnj-main-worker.git",
+            "path": "/tnj-main-worker/",
+            "type": "worker"
+        },
+        {
+            "name": "tnj-web-api",
+            "github_url": "https://github.com/tampanodejs/tnj-web-api.git",
+            "path": "/tnj-web-api/",
+            "type": "api"
+        },
+        {
+            "name": "tnj-web-ui",
+            "github_url": "https://github.com/tampanodejs/tnj-web-ui.git",
+            "path": "/tnj-web-ui/",
+            "type": "webclient"
+        }
+    ],
+    "github_username": "ericnograles",
+    "github_team": {
+        "name": "Owners",
+        "id": 1716073,
+        "organization": "tampanodejs"
+    }
+}
