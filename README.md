@@ -32,10 +32,10 @@ The tnj-runners repo is simply a directory.json file that acts as a reference to
 
 In the steps above, we installed the prerequisites for the meanr managed solution, and the **meanr build** command performs a checkout on all of the Git repos comprising the meanr solution and lays them out in this folder structure:
 
-/APIs: Web API's
-/clients: *Future Feature* Non-web clients
-/webclients: Web clients
-/workers: Workers
+* /APIs: Web API's
+* /clients: *Future Feature* Non-web clients
+* /webclients: Web clients
+* /workers: Workers
 
 # Running the Application
 If you simply want to see the app in action, execute **meanr run** at the topmost level of the meanr solution.
