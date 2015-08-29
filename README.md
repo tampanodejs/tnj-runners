@@ -8,13 +8,13 @@ A sample mean-r managed solution for the tnj-runners microservices/service orien
 4. RabbitMQ server installed locally
 
 # Recommended Tools
-1. WebStorm
-2. Robomongo
-3. Postman
+1. [WebStorm](https://www.jetbrains.com/webstorm/)
+2. [Robomongo](http://robomongo.org/)
+3. [Postman](https://www.getpostman.com/)
 
 # Instructions
 1. Clone this repo
-2. npm install -g mean-r gulp node-sass
+2. npm install -g mean-r gulp node-sass bower
 3. meanr build
 4. meanr update
 5. Establish the following environment variables, either through a WebStorm config or directly on your ~/.bash_profile (or System settings in Windows)
