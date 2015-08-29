@@ -16,16 +16,17 @@ A sample mean-r managed solution for the tnj-runners microservices/service orien
 1. Clone this repo
 2. npm install -g mean-r gulp node-sass
 3. meanr build
-4. Establish the following environment variables, either through a WebStorm config or directly on your ~/.bash_profile (or System settings in Windows)
-  * NODE_ENV
+4. meanr update
+5. Establish the following environment variables, either through a WebStorm config or directly on your ~/.bash_profile (or System settings in Windows)
+  * (Required) NODE_ENV
     * Value: Set it to "dev"
-  * RUNKEEPER_SEED_OAUTH
+  * (Optional) RUNKEEPER_SEED_OAUTH
     * Value: Go to the [RunKeeper Developer Portal](http://runkeeper.com/partner) and establish an account. Then, obtain a valid OAuth token from RunKeeper through your favorite OAuth provider.
 
-# RunKeeper Alternatives
-If you prefer not to use the RunKeeper scenario, modify **/workers/tnj-runkeeper-worker/main/runners/get.js**  
+# Using RunKeeper OAuth
+Assuming you have obtained a valid RunKeeper OAuth token above, modify **/workers/tnj-runkeeper-worker/main/runners/get.js**  
 
-In the **index** and **fitness_activities** functions, simply replace the contents of the functions entirely with anything of your choosing, but be sure to use either **handler.success** or **handler.error** as your exit points. These will package the data you want in a payload to be acknowledged back through RabbitMQ.
+In the **index** and **fitness_activities** functions, simply uncomment the lines below the TODO to integrate with RunKeeper.
 
 # Design Rationale
 The tnj-runners repo is simply a directory.json file that acts as a reference to other GitHub repos that form a meanr "solution". Think of it as the equivalent of a .Net solution file for a microservices architecture.
