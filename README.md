@@ -29,7 +29,7 @@ The **meanr run** command was designed mainly for UI/UX resources to spin up the
 
 # WebStorm Git Goodies (as tested in WebStorm 9 & 10)
 
-* After performing a **meanr build** and a **meanr update**, close out of WebStorm and reopen the package
+* After performing a **meanr build** and a **meanr update**, close out of WebStorm and reopen the project
 * WebStorm will notify you of "Unregistered VCS roots detected".  Click "Add roots"
 
 ![Unregistered vcs roots on WebStorm](http://i.imgur.com/oqd7rbR.png)
