@@ -59,3 +59,14 @@ In the steps above, we installed the prerequisites for the meanr managed solutio
 * /clients: *Future Feature* Non-web clients
 * /webclients: Web clients
 * /workers: Workers
+
+# Questions?
+We'd love to hear from you! We are intending to release the meanr scaffolder as a collaborative project for folks who desire this type of tool to manage their Node microservices applications!
+
+See you at the next Tampa Node.js meetup!
+
+~ Team I4 from [352 Inc.](https://github.com/352media)
+
+* [Richard Brookfield](https://github.com/dvideby0)
+* [Brad Prymicz](https://github.com/bprymicz)
+* [Eric Nograles](https://github.com/ericnograles)
