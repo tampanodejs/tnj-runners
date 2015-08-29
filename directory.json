@@ -1,7 +1,7 @@
 {
     "client_name": "Tampa NodeJS",
     "solution_name": "tnj-runners",
-    "heroku_key": "7c004a4e-c883-42b4-bd35-6ba100abc2e5",
+    "heroku_key": "",
     "new_relic_key": "",
     "imported_projects": [
         {
