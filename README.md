@@ -22,6 +22,21 @@ A sample mean-r managed solution for the tnj-runners microservices/service orien
     * Value: Set it to "dev"
   * (Optional) RUNKEEPER_SEED_OAUTH
     * Value: Go to the [RunKeeper Developer Portal](http://runkeeper.com/partner) and establish an account. Then, obtain a valid OAuth token from RunKeeper through your favorite OAuth provider.
+6. meanr run
+
+# Debugging the Application
+The **meanr run** command was designed mainly for UI/UX resources to spin up the architecture with minimal pain. For backend developers, we recommend using WebStorm and setting up configurations for each Node application -- the API, the workers, and the webclient. You would then debug each application as you would a normal Node application in WebStorm.
+
+# WebStorm Git Goodies (as tested in WebStorm 9 & 10)
+
+* After performing a **meanr build** and a **meanr update**, close out of WebStorm and reopen the package
+* WebStorm will notify you of "Unregistered VCS roots detected".  Click "Add roots"
+
+![Unregistered vcs roots on WebStorm](http://i.imgur.com/oqd7rbR.png)
+
+* You will now notice each repo (API, workers, Web UI) are now on the lower right hand corner of WebStorm for Git integration
+
+![VCS roots added to WebStorm](http://i.imgur.com/4LgpjHi.png)
 
 # meanr commands
 Note that these commands need to be executed at the root of the meanr solution
@@ -44,18 +59,3 @@ In the steps above, we installed the prerequisites for the meanr managed solutio
 * /clients: *Future Feature* Non-web clients
 * /webclients: Web clients
 * /workers: Workers
-
-# Debugging the Application
-The **meanr run** command was designed mainly for UI/UX resources to spin up the architecture with minimal pain. For backend developers, we recommend using WebStorm and setting up configurations for each Node application -- the API, the workers, and the webclient. You would then debug each application as you would a normal Node application in WebStorm.
-
-# WebStorm Git Goodies (as tested in WebStorm 9 & 10)
-
-* After performing a **meanr build** and a **meanr update**, close out of WebStorm and reopen the package
-* WebStorm will notify you of "Unregistered VCS roots detected".  Click "Add roots"
-
-![Unregistered vcs roots on WebStorm](http://i.imgur.com/oqd7rbR.png)
-
-* You will now notice each repo (API, workers, Web UI) are now on the lower right hand corner of WebStorm for Git integration
-
-![VCS roots added to WebStorm](http://i.imgur.com/4LgpjHi.png)
-
